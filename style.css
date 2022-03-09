@@ -1,0 +1,47 @@
+*{
+    margin:0;
+}
+body{
+    background-image:linear-gradient(red, blue) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    height:100%;
+    justify-content:space-between;
+    display: flex;
+}
+#name, #task,#money{
+    padding: 1em;
+    background-color: rgb(183, 207, 228);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+button{
+    background-color: rgb(172, 84, 199);
+    padding: 0.5em;
+    border: none;
+    box-shadow: 0 0 3px;
+}
+div{
+    background-color: rgba(37, 77, 112, 0.438);
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+    margin: 10px;
+    width: 70%;
+    position:center;
+    padding: 20px;
+} 
+
+div>*{
+    margin:5px
+}
+#inputButton, #submit, .submit{
+    background-color: rgba(0, 162, 255, 0.815);
+    margin-top: 5px;
+    border: none;
+    border-radius: 2px;
+    font-size: large;
+    box-shadow: 0 0 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
