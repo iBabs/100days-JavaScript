@@ -67,9 +67,9 @@ function hello(){
     //set this else the function will run only once
     // So when the page is refreshed, it starts from where it stopped
     localStorage.setItem('Add', Add)
-    // if (Add % 10 === 0){
-        //alert(`You have clicked ${Add} times`)
-   // }
+    if (Add % 10 === 0){
+        alert(`You have clicked ${Add} times`)
+   }
  }
  // add event listener for the code to run properly
  document.addEventListener('DOMContentLoaded', ()=>{ 
